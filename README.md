@@ -1,48 +1,38 @@
 # Shauna Ayscue's Web Development Portfolio
 
-A collection of web development projects from CSC 372 (Web Development) coursework, showcasing HTML, CSS, and JavaScript skills.
+A collection of web development projects from CSC 372 (Web Development) coursework, with HTML, CSS, and JavaScript.
 
-## 📁 Project Structure
+## Project Structure
 
 This portfolio contains the following projects:
 
 ### 1. **Recipe: Grandma's Lemon Meringue Pie**
 
 - **Path:** `csc372-hw/recipe/`
-- **Description:** A basic recipe website demonstrating fundamental HTML structure and CSS styling
-- **Technologies:** HTML5, CSS3
-- **Features:** Recipe presentation with styled layout
+- **Description:** A simple recipe website with HTML and CSS
 
 ### 2. **Meal Plan: Dine On UNCG Campus**
 
 - **Path:** `csc372-hw/meal-plan/`
-- **Description:** A dining guide website for campus restaurants with interactive meal planning features
-- **Technologies:** HTML5, CSS3, JavaScript
-- **Features:** Restaurant information, meal planning functionality, event handling
+- **Description:** A dining guide website for campus restaurants with meal planning features and event handling
 
 ### 3. **Rock, Paper, Scissors Game**
 
 - **Path:** `csc372-hw/rock-paper-scissors/`
 - **Description:** An interactive game where users play Rock, Paper, Scissors against the computer
-- **Technologies:** HTML5, CSS3, JavaScript (with callbacks)
-- **Features:** User input handling, random computer choice, winner determination
+- **Features:** User input handling, random computer choice, decides who is the winner, and callbacks
 
 ### 4. **GitHub Gallery**
 
 - **Path:** `csc372-hw/github-gallery/`
 - **Description:** A dynamic gallery that displays GitHub user repositories using the GitHub API
-- **Technologies:** HTML5, CSS3, JavaScript (Fetch API)
-- **Features:** GitHub API integration, repository data display, search functionality
+- **Features:** GitHub API integration, repository data display, search functionality, fetch API
 
-## 🚀 How to Run
+## How to Run
 
-### Option 1: Using a Local Web Server (Recommended)
+### Option 1: Using a Local Web Server
 
 1. **Navigate to the project directory:**
-
-   ```bash
-   cd /Users/shaunaayscue/Desktop/HTML-mult-projects
-   ```
 
 2. **Start a local web server:**
 
@@ -58,7 +48,7 @@ This portfolio contains the following projects:
    python -m SimpleHTTPServer 8000
    ```
 
-   **Using Node.js (if installed):**
+   **Using Node.js:**
 
    ```bash
    npx http-server
@@ -74,41 +64,11 @@ This portfolio contains the following projects:
 
 ### Option 2: Direct File Opening
 
-Open `index.html` directly in your web browser by double-clicking the file. Note that some features (like the GitHub API calls) may not work properly without a local server due to CORS restrictions.
+Open `index.html` directly in your web browser by double-clicking the file. Note: Some features might not work without a local server due to CORS restrictions.
 
-## 📄 Main Landing Page
+## Technologies
 
-The main `index.html` file serves as a landing page with links to all four projects.
-
-**To access:**
-
-1. Open `index.html` in your web browser
-2. Click on any project link to navigate to that assignment
-
-## ⚙️ Technologies Used
-
-- **HTML5:** Semantic markup and structure
-- **CSS3:** Styling, layouts, and responsive design
+- **HTML5:**
+- **CSS3:**
 - **JavaScript (ES6):** Event handling, DOM manipulation, API integration
-- **GitHub API:** Repository data fetching (GitHub Gallery project)
-
-## 📝 Author
-
-**Shauna Ayscue**  
-Course: CSC 372-01 (Web Development)  
-Academic Year: 2024-2025
-
-## 🎓 Learning Objectives
-
-These projects demonstrate proficiency in:
-
-- Basic HTML structure and semantic elements
-- CSS styling and layout techniques
-- JavaScript event handling and DOM manipulation
-- Asynchronous operations with Fetch API
-- Working with external APIs (GitHub)
-- Interactive web application development
-
----
-
-**Note:** All projects are designed to work in modern web browsers. For best results, use the latest version of Chrome, Firefox, Safari, or Edge.
+- **GitHub API:** Repository data fetching
