@@ -2,7 +2,7 @@
 
 A collection of web development projects from CSC 372 (Web Development) coursework, showcasing HTML, CSS, and JavaScript skills.
 
-## 📁 Project Structure
+## Project Structure
 
 This portfolio contains the following projects:
 
