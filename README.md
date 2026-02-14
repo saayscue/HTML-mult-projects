@@ -48,12 +48,6 @@ This portfolio contains the following projects:
    python -m SimpleHTTPServer 8000
    ```
 
-   **Using Node.js:**
-
-   ```bash
-   npx http-server
-   ```
-
 3. **Open your browser and navigate to:**
 
    ```
