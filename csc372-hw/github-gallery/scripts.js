@@ -1,7 +1,7 @@
 let searchBtn = document.getElementById("search-btn");
 let inputUsername = document.getElementById("github-username");
 
-let defaultUsername = "shaunaayscue"
+let defaultUsername = "saayscue"
 fetchRepos(defaultUsername);
 
 searchBtn.addEventListener("click", onClick);
